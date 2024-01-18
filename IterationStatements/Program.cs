@@ -6,7 +6,7 @@
         //Write a method that will print to the console all numbers 1000 through - 1000
         public static void Numbers() 
         {
-            for (int i = -1000; i >= 1000; i++) 
+            for (int i = -1000; i <= 1000; i++) 
             {
                 Console.WriteLine(i);
             }
